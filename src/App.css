@@ -1,0 +1,13 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.tabs{
+	width: 300px;
+	margin: 0 auto;
+	overflow: hidden;
+	border: 1px solid #ccc;
+}
+.box{
+	width:this.state.tabs*100+'%';
+}
